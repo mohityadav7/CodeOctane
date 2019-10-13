@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Link, withRouter } from 'react-router-dom';
 
+
 const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-md">
@@ -15,14 +16,14 @@ const Navbar = () => {
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <NavLink class="nav-link" to="/practice">Practice</NavLink>
+                        <li class="nav-item active" >
+                            <NavLink class="nav-link" to="/practice" >Practice</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" class="customnav-link">
                             <NavLink class="nav-link" to="/contests">Contests</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <NavLink class="nav-link" to="/about">About</NavLink>
+                        <li class="nav-item" class="customnav-link">
+                            <NavLink class="nav-link  " to="/about">About</NavLink>
                         </li>
                     </ul>
                 </div>

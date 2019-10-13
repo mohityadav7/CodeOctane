@@ -3,6 +3,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Navbar from '../Navbar';
 import HomepageCarousel from './HomepageCarousel';
+import Card from './Card';
 // import Footer from './Footer';
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
         <div className="homepage">
             <Navbar />
             <HomepageCarousel />
+            
             {/* <Footer /> */}
         </div>
     );
