@@ -14,11 +14,11 @@ const HomepageCarousel = () => {
                 items={1}
                 nav={false}
                 autoplay
-                autoplayTimeout={4000}
+                autoplayTimeout={400000}
             >
-                <div class="item"><LoginSlide /></div>
-                <div class="item"><TopPerformersSlide /></div>
-                <div class="item"><ContestSlide /></div>
+                <div className="item"><LoginSlide /></div>
+                <div className="item"><TopPerformersSlide /></div>
+                <div className="item"><ContestSlide /></div>
             </OwlCarousel>
         </div>
     );
