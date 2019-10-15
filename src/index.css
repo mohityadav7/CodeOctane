@@ -1,7 +1,7 @@
 /*----------  Variables  ----------*/
 :root {
   --bg-primary: #dbf3f1;
-  --bg-seondary: #bce1f3;
+  --bg-secondary: #bce1f3;
   --primary: #224056;
   --secondary: #49c2b9;
 }
@@ -16,10 +16,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#root {
-  background-color: var(--bg-primary);
 }
 
 textarea:hover,
@@ -45,6 +41,9 @@ label:focus,
 
 .homepage {
   height: 100vh;
+  background-color: #f6fcfb;
+  background-image: url('/images/svg/bg-binary.svg');
+  background-size: cover;
 }
 
 .owl-theme .item {
@@ -92,6 +91,55 @@ label:focus,
     font-size: 14px;
     padding: 8px 32px;
     margin: 18px 16px;
+  }
+}
+
+
+/*----------  Top Performers slid  ----------*/
+.top-performers-content-container {
+  color: var(--primary);
+  font-family: Rubik, sans-serif;
+  padding-top: 8%;
+  text-align: center;
+}
+
+#top-performers-prize-img {
+  height: 300px;
+}
+
+.top-performers-text {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.contest-details {
+  font-size: 28px;
+}
+
+.top-performer-name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .top-performers-content-container {
+    padding-top: 4%;
+  }
+
+  #top-performers-prize-img {
+    height: 200px;
+  }
+
+  .top-performers-text {
+    font-size: 36px;
+  }
+
+  .contest-details {
+    font-size: 22px;
+  }
+
+  .top-performer-name {
+    font-size: 20px;
   }
 }
 
