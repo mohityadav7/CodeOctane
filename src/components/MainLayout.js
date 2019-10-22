@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom';
 import HomePage from './HomePage/HomePage';
 import Practice from './Practice';
-import Contests from './Contests';
+import Contests from './Contest/Contests';
 import About from './About';
 
 const MainLayout = () => {

@@ -16,6 +16,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Rubik, sans-serif;
 }
 
 textarea:hover,
@@ -98,7 +99,6 @@ label:focus,
 /*----------  Top Performers slid  ----------*/
 .top-performers-content-container {
   color: var(--primary);
-  font-family: Rubik, sans-serif;
   padding-top: 8%;
   text-align: center;
 }
@@ -230,10 +230,6 @@ label:focus,
 =            Navbar            =
 =============================================*/
 
-.navbar .navbar-logo {
-  font-family: 'Rubik', sans-serif;
-}
-
 .navbar .navbar-toggler {
   border-color: none;
 }
@@ -280,7 +276,6 @@ label:focus,
 
 .footer {
   background: #ffffffaa;
-  font-family: 'Rubik', sans-serif;
   font-size: 11px;
   font-weight: normal;
   text-align: center;
@@ -288,3 +283,188 @@ label:focus,
 }
 
 /*=====  End of Footer  ======*/
+
+
+/*=============================================
+=            Problem            =
+=============================================*/
+
+.problem-container {
+  font-size: 15px;
+  margin-bottom: 36px;
+}
+
+.problem-container .problem-title {
+  font-weight: 600;
+  font-size: 28px;
+  display: inline;
+}
+
+.problem-container .time-and-memory-constraints-container {
+  display: inline;
+  font-size: 10px;
+}
+
+.problem-container .time-limit-container {
+  display: inline;
+  margin: 0 0 0 12px;
+}
+
+.problem-container .memory-limit-container {
+  display: inline;
+  margin: 0 0 0 12px;
+}
+
+.problem-container .problem-description {
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .problem-container .problem-title,
+  .problem-container .time-and-memory-constraints-container {
+    display: block;
+  }
+
+  .problem-container .time-limit-container {
+    margin: 0 12px 0 0;
+  }
+
+  .problem-container .memory-limit-container {
+    margin: 0;
+  }
+
+  .problem-container {
+    font-size: 14px;
+  }
+}
+
+/*----------  Problem Subsection  ----------*/
+.problem-container .problem-subsection {
+  margin: 12px 0;
+}
+
+.problem-container .problem-subsection-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .problem-container .problem-subsection-title {
+    font-size: 14px;
+  }
+}
+
+/*----------  Problem Subsection for SampleIO  ----------*/
+
+.problem-container .higlighted-problem-subsection-content {
+  background-color: #effaf8;
+  padding: 8px;
+}
+
+/*=====  End of Problem  ======*/
+
+
+/*=============================================
+=            AceEditor            =
+=============================================*/
+
+.ace_content {
+  width: 100%;
+}
+
+.ace-container {
+  margin: 0;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.editor-buttons-container {
+  padding: 16px 0;
+  background: white;
+}
+
+.editor-button {
+  color: var(--primary);
+  margin: 0 12px 0 0;
+  font-size: 15px;
+  padding: 6px 24px;
+  background: #effaf8;
+  border: 1px solid #ccc;
+}
+
+.editor-button.submit {
+  background: var(--primary);
+  color: #eee;
+  border: 1px solid var(--primary);
+}
+
+.editor-button:hover {
+  box-shadow: 0px 4px 6px 2px hsl(176, 74%, 72%);
+}
+
+@media screen and (max-width: 768px) {
+  .ace_content {
+    width: 100%;
+  }
+}
+
+/*----------  AceUserPreferences  ----------*/
+#ace-user-preferences-container {
+  background: #ebebeb;
+  padding: 6px;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.ace-user-preference-icon {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.ace-user-preference-dropdown {
+  color: var(--primary);
+  border: 1px solid #ddd;
+  padding: 3px;
+  margin: 0 12px 0 0;
+  background: white;
+}
+
+.ace-user-preference-icon {
+  height: 24px;
+  border: 1px solid #eee;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.ace-user-preference-icon {
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+  .ace-user-preference-icon.full-screen {
+    display: none;
+  }
+}
+
+
+/*=====  End of AceEditor  ======*/
+
+
+/*=============================================
+=            Contests            =
+=============================================*/
+
+.contests-container {
+  padding: 12px 72px;
+}
+
+@media screen and (max-width: 768px) {
+  .contests-container {
+    padding: 16px;
+  }
+}
+
+/*=====  End of Contests  ======*/
