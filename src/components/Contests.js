@@ -1,10 +1,11 @@
 import React from 'react';
-
+import ContestsLists from './Contests_lists'
 const Contests = () => {
     return (
-        <div className="contests">
-            Contests Section
+        <div className="Contests" >
+            <ContestsLists />
         </div>
+
     );
 }
 

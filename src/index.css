@@ -468,3 +468,506 @@ label:focus,
 }
 
 /*=====  End of Contests  ======*/
+
+/*==============================================
+            Contests_Descriptions
+===============================================*/
+.Contests_Badge {
+
+  height: 55px;
+  background-color: #F5F5F5;
+
+}
+
+.Contests_Badge_Text {
+  padding-left: 58px;
+  padding-top: 12px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: bold;
+  color: #224056;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contests_Badge_Text {
+    padding-left: 95px;
+    padding-top: 17px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: bold;
+    color: #224056;
+  }
+}
+
+.Contest_Heading {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 600;
+  color: #224056;
+  padding-left: 58px;
+  padding-top: 30px;
+}
+
+.Contests_Time {
+  font-family: Rubik;
+  font-size: 18px;
+  color: #4a4a4a;
+  padding-left: 58px;
+}
+
+.Contests_Welcome {
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #224056;
+  padding-left: 58px;
+  padding-top: 20px;
+  font-weight: 550;
+}
+
+.Contests_Instructions_Heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  color: #4a4a4a;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+.Contests_Instructions_Text {
+  font-family: Rubik;
+  font-size: 18px;
+  color: #4a4a4a;
+  padding-left: 74px;
+}
+
+.Contests_Prizes {
+  width: 60px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.Contests-register-button {
+  font-size: 18px;
+  border: none;
+  color: #eee;
+  background-color: #224056;
+  padding: 8px 72px;
+  margin: 18px;
+  box-shadow: 0 6px 10px 2px #ccc;
+  position: relative;
+  left: 300px;
+}
+
+.Contests-register-button:hover {
+  box-shadow: 0 6px 10px 2px #49c2b9;
+}
+
+.Contests-Goodies1 {
+
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  padding-top: 28px;
+}
+
+.Contests-Goodies2 {
+
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  padding-top: 19px;
+}
+
+#Contests-prize-image1 {
+  padding-left: 95px;
+  padding-top: 5px;
+  width: 180px;
+  height: 75px
+}
+
+#Contests-prize-image2 {
+  padding-left: 92px;
+  height: 70px;
+}
+
+.Contests_Announcements {
+  width: 60px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  padding-left: 60px;
+}
+
+/*==========================================================
+               Contests_Lists
+===========================================================*/
+
+
+.Contests-List-Badge {
+
+  height: 55px;
+  background-color: #F5F5F5;
+
+}
+
+.Contests-List-Badge-Text {
+  padding-left: 58px;
+  padding-top: 12px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: bold;
+  color: #224056;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Contests-List-Badge-Text {
+    padding-left: 105px;
+    padding-top: 17px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: bold;
+    color: #224056;
+
+  }
+}
+
+.Contests-Upcoming {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  padding-left: 65px;
+  padding-top: 30px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Contests-Upcoming {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 600;
+    color: #224056;
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+}
+
+/*====Card 1========*/
+
+.Contact-card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 70%;
+  padding: 50px 50px 50px 50px;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+  margin-left: 120px;
+
+}
+
+.Contact-card1:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Contact-container {
+  padding: 2px 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact-card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 60%;
+    padding: 50px 50px 50px 50px;
+    border-radius: 4%;
+    background-color: #F5F5F5;
+    margin-left: 50px;
+  }
+}
+
+/*====Card 2========*/
+
+.Contact-card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 70%;
+  padding: 50px 50px 50px 50px;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+}
+
+.Contact-card2:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Contact-container {
+  padding: 2px 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact-card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 60%;
+    padding: 50px 50px 50px 50px;
+    border-radius: 4%;
+    background-color: #F5F5F5;
+    margin-left: 50px;
+  }
+}
+
+/*====Card 3========*/
+
+.Contact-card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 70%;
+  padding: 50px 50px 50px 50px;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+  margin-left: 120px;
+}
+
+.Contact-card3:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Contact-container {
+  padding: 2px 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact-card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 60%;
+    padding: 50px 50px 50px 50px;
+    border-radius: 4%;
+    background-color: #F5F5F5;
+    margin-left: 50px;
+  }
+}
+
+
+/*====Card 4========*/
+
+.Contact-card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 70%;
+  padding: 50px 50px 50px 50px;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+}
+
+.Contact-card4:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Contact-container {
+  padding: 2px 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact-card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 60%;
+    padding: 50px 50px 50px 50px;
+    border-radius: 4%;
+    background-color: #F5F5F5;
+    margin-left: 48px;
+  }
+}
+
+/*=====Right Container===*/
+
+#Contests-list-prize-image1 {
+  padding-left: 100px;
+  padding-top: 0px;
+  width: 180px;
+  height: 75px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #Contests-list-prize-image1 {
+    padding-left: 100px;
+    padding-top: 0px;
+    width: 180px;
+    height: 75px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+#Contests-list-prize-image2 {
+  margin-left: 50px;
+  height: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  #Contests-list-prize-image2 {
+    padding-left: 92px;
+    height: 60px;
+    margin-left: 10px;
+  }
+}
+
+#Contests-list-prize-image3 {
+  margin-left: 55px;
+  height: 75px;
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #Contests-list-prize-image3 {
+    padding-left: 92px;
+    height: 60px;
+    margin-left: 2px;
+  }
+}
+
+.Contests-performer-name1 {
+  width: 112px;
+  height: 24px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  margin-left: 172px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Contests-performer-name1 {
+    width: 112px;
+    height: 24px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 600;
+    color: #224056;
+    margin-left: 90px;
+
+  }
+}
+
+.Contests-performer-name2 {
+
+  height: 24px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  margin-left: 45px;
+}
+
+.Contests-performer-name3 {
+  height: 24px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  margin-left: 55px;
+}
+
+.Contests-Performers {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  margin-top: 30px;
+  margin-left: -30px;
+
+}
+
+.Contests-card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+
+}
+
+.Contests-card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+
+}
+
+.Contests-card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+  margin-top: 18px;
+  padding: 5px 5px 5px 5px;
+
+}
+
+.Contests-card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+  margin-top: 15px;
+  padding: 5px 5px 5px 5px;
+}
+
+.Contests-card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 4%;
+  background-color: #F5F5F5;
+  margin-top: 15px;
+  padding: 5px 5px 5px 5px;
+
+}
+
+.Past-Contests-name {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  margin-top: 3px;
+
+}
+
+/*=========Card Details==============*/
+.Contest-card-heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 600;
+  color: #224056;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.Contests-card-heading-details {
+  opacity: 0.78;
+  font-family: Rubik;
+  font-size: 10px;
+  text-align: center;
+  color: #224056;
+}
+
+.Contests-clock {
+
+  font-family: Rubik;
+  font-size: 16px;
+  color: #38b5ae;
+  text-align: center;
+
+}
